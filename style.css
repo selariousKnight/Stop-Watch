@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+.container{
+    background-color: rgb(162, 240, 162);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    justify-content: center;
+
+}
+.heading{
+    color:black;
+}
+.stopContainer{
+    display: flex;
+    justify-content: center;
+    color: ghostwhite;
+    font-weight: bold;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+    background-color: rgb(238, 62, 238);
+    border-radius:10px;
+}
+.blockContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.block{
+    margin: 10px;
+    justify-content: center;
+    font-size: 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: ghostwhite
+    
+}
+.StartButton{
+    background-color: rgb(84, 207, 103);
+    width:25%;
+    padding:10px;
+    border: none;
+    border-radius:7px;
+    margin:10px;
+    color: ghostwhite;
+}
+.buttonsContainer{
+    width: 100%;
+    text-align: center;
+}
+.StopButton{
+    background-color: rgb(236, 20, 20);
+    width:25%;
+    padding:10px;
+    border: none;
+    border-radius:7px;
+    margin:10px;
+    color: ghostwhite;
+}
+.ResetButton{
+    background-color: grey;
+    width:25%;
+    padding:10px;
+    border: none;
+    border-radius:7px;
+    margin:10px;
+    color: ghostwhite;
+}
